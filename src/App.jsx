@@ -3,12 +3,13 @@ import{
   Routes,
   Route,
 }from "react-router-dom";
+import Home from "./pages/Home/home";
 
 function App() {
   return(
     <BrowserRouter>
       <Routes>
-        <Route path="/" element = {}></Route>
+        <Route path="/" element = {<Home/>}/>
       </Routes>
     
     </BrowserRouter>
