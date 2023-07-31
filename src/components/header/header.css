@@ -1,0 +1,77 @@
+.header{
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc{
+    margin: 20px 0px;
+}
+
+.headerBtn{
+    background-color: wheat;
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerIcon{
+    color: teal;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}   
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: grey;
+    cursor: pointer;
+}
